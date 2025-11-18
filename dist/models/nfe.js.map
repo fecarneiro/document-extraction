@@ -1,0 +1,1 @@
+{"version":3,"file":"nfe.js","sourceRoot":"","sources":["../../src/models/nfe.ts"],"names":[],"mappings":"AAAA,OAAO,CAAC,MAAM,KAAK,CAAC;AAEpB,MAAM,CAAC,MAAM,SAAS,GAAG,CAAC,CAAC,MAAM,CAAC;IAChC,cAAc,EAAE,CAAC,CAAC,MAAM,EAAE;IAC1B,UAAU,EAAE,CAAC,CAAC,MAAM,EAAE;CACvB,CAAC,CAAC"}
