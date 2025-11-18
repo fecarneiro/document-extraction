@@ -15,4 +15,5 @@ app.use('/api/upload', documentsRouter);
 
 app.listen(config.port, () => {
   console.log(`Server listening on port ${config.port}`);
+  console.log(`DEV Server listening on http://localhost:${config.port}`);
 });
