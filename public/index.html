@@ -150,6 +150,10 @@
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
         visibility: hidden;
       }
+
+      .result-message {
+        padding-top: var(--spacing-unit);
+      }
     </style>
   </head>
   <body>
@@ -215,8 +219,9 @@
           resultDiv.className = '';
           resultDiv.textContent = '';
           for ([key, value] of Object.entries(result.data)) {
-            resultDiv.innerHTML += `<p class="result-text"><b>${key}:</b> ${value}</p>`;
+            resultDiv.innerHTML += `<p><b>${key}:</b> ${value}</p>`;
           }
+          resultDiv.innerHTML += `<p class="result-message"> ${result.message}</p>`;
 
           fileInput.value = '';
           displayName.textContent = 'No file chosen';
